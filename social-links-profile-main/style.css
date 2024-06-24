@@ -9,20 +9,22 @@ body {
 
 .container {
   /* width: 30%; */
-  max-width: 500px;
+  max-width: 345px;
   background-color: hsl(0, 0%, 12%);
   margin: 100px auto;
   border-radius: 20px;
-  padding: 2.25rem;
+  padding: 2rem;
 }
 
 .profile-img {
   text-align: center;
-  margin: 20px 0;
+  margin: 20px auto;
+  width: 100px;
 }
 
 img {
   border-radius: 50%;
+  width: 100%;
 }
 
 .intro {
@@ -36,32 +38,30 @@ img {
 
 .skill {
   width: 100%;
-  height: 70px;
+  height: 38px;
   margin: 20px auto;
   text-align: center;
   border: 2px solid hsl(0, 0%, 20%);
   color: hsl(0, 0%, 100%);
-  padding-top: 20px ;
   border-radius: 10px;
   background-color: hsl(0, 0%, 20%);
-  font-size: 20px;
+  font-size: .9375rem;
   font-weight: 500;
+  padding-top: 7px;
 }
 
 h2 {
   letter-spacing: 1.5px;
-  font-size: 2rem;
   margin-bottom: 10px;
 }
 
 .address {
   color: hsl(75, 94%, 57%);
   font-weight: 600;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
 
-.role{
-    font-size: 1.25rem;
-    font-weight: 500;
-
+.role {
+  font-size: 0.9rem;
+  font-weight: 500;
 }
