@@ -72,8 +72,8 @@ a {
 @media (min-width:375px) and (max-width:1440px){
 
     .card-container{
-        width: 80%;
-        max-width: 880px;
+        width: 50%;
+        max-width: 830px;
         display: flex;
         margin: 30px auto;
     }
