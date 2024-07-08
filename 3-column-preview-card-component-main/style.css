@@ -30,14 +30,15 @@ body{
 .cards p {
   font-family: "Lexend Deca", sans-serif;
   color: hsla(0, 0%, 100%, 0.75);
-  font-size: .9375rem;
-  margin-bottom: 100px;
+  font-size: 10px;
+  margin-bottom: 50px;
 }
 
 a {
   font-family: "Lexend Deca", sans-serif;
+  font-size: 10px;
   display: inline-block;
-  padding: 15px 35px;
+  padding: 5px 25px;
   border-radius: 100px;
   text-decoration: none;
   background-color: hsl(0, 0%, 95%);
@@ -75,7 +76,7 @@ a {
         width: 50%;
         max-width: 830px;
         display: flex;
-        margin: 30px auto;
+        margin: 70px auto;
     }
 
     .orange {
