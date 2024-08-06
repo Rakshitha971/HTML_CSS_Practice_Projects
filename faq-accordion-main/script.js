@@ -6,13 +6,21 @@ faqItems.forEach((item) => {
   const plusIcon = item.querySelector('.plus-icon')
   const minusIcon = item.querySelector('.minus-icon')
 
-  question.addEventListener('click', (e) => {
- 
-
+  const toggleFAQ = () => {
+    const expanded = question.getAttribute('aria-expanded') === 'true'
+    question.setAttribute('aria-expanded', !expanded)
+    answer.setAttribute('aria-expanded', expanded)
     plusIcon.classList.toggle('Inactive')
-   
     minusIcon.classList.toggle('Active')
-    
     answer.classList.toggle('Active')
+  }
+
+  question.addEventListener('click', toggleFAQ)
+
+  question.addEventListener('keypress', (e) => {
+    if (e.key === 'Enter' || e.key === ' ') {
+      e.preventDefault()
+      toggleFAQ()
+    }
   })
 })
